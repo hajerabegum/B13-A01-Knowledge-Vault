@@ -11,6 +11,11 @@
 
 }
 
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
 header {
     padding-top: 16px;
 }
@@ -162,4 +167,63 @@ header {
 
 .play-icon {
     font-size: 18px;
+}
+
+/* ideas section */
+.ideas{
+    padding:80px 0;
+}
+.ideas-container{
+    width: 1300px;
+    margin: 0 auto;
+}
+.heading-center{
+    text-align: center;
+    margin: 0 auto;
+}
+.ideas-box{
+
+    display: flex;
+    gap: 24px;
+    padding-top: 44px;
+    text-align: center;
+}
+.ideas-heading h1{
+    margin-bottom: 16px;
+    font-size: 48px;
+    font-style: Bold;
+  color:#001931;
+  text-align: center;
+text-transform: capitalize;
+}
+.ideas-heading p{
+    font-size: 18px;
+    color: #627382;
+    max-width: 700px;
+    margin: 0 auto;
+
+}
+.ideas-card img{
+    background-color: #F95555;
+}
+.ideas-card{
+    padding: 70px 24px;
+    box-shadow: 0 0 8px 0 #0000002b;
+    max-width: 322px;
+}
+.ideas-card img{
+max-width: 60px;
+margin-bottom: 16px;
+}
+.ideas-card h3{
+    font-size: 20px;
+    color:#001931;
+    margin-bottom: 16px;
+
+}
+.ideas-card p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+
 }
